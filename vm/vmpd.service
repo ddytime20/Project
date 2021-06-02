@@ -1,0 +1,12 @@
+[Unit]
+Description=vmpd
+After=network.target remote-fs.target nss-lookup.target libvirtd.service
+
+
+[Service]
+Type=forking
+ExecStart=/sbin/vmpd start
+ExecStop=/sbin/vmpd stop
+
+[Install]
+WantedBy=multi-user.target
