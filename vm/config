@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#install dir
+INSTALL_DIR=/tmp/
+
+# vm num
+VM_NUM=2
+
+# vm cpu
+VM_CPU=2
+
+# vm mem(kib)
+VM_MEM=2097152
+
+# server port
+SERVER_PORT=8080
